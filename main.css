@@ -1,0 +1,78 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    --text: #d2d1fe;
+    --background: #00010a;
+    --primary: #7271fb;
+    --secondary: #a60587;
+    --accent: #f81a6a;
+    
+}
+
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+h1 {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(180deg, #7271fb, #a60587, #f81a6a); 
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.container button {
+    color: white;
+    background-color:burlywood;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 1px 1px 2px var(--text);
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.container button:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 3px var(--text);
+}
+
+.rock:hover {
+    background-color: var(--secondary);
+}
+
+.paper:hover {
+    background-color: var(--primary);
+}
+
+.scissors:hover {
+    background-color: var(--accent);
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
