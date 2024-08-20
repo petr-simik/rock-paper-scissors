@@ -1,6 +1,6 @@
 # Rock Paper Scissors
 
-## [Live Demo](https://qsoftin.github.io/rock-paper-scissors/)
+## [Live Demo](https://petr-simik.github.io/rock-paper-scissors/)
 
  Mini project from The Odin Project - Rock Paper Scissors
 
